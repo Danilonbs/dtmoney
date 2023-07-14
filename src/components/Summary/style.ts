@@ -12,7 +12,7 @@ export const Container = styled.div`
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
         color: var(--text-title);
-    }
+    
     
 
     header {
@@ -29,8 +29,8 @@ export const Container = styled.div`
         line-height: 3rem;
     }
 
-    &.bk {
-        background: var(--green);
-        color: #FFF;
+        &.highlight-background {
+      background: var(--green);
+        }
     }
 ` 
